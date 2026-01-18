@@ -1,0 +1,87 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.header-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header-header .logo {
+    display: flex;
+    gap: 15px;
+}
+
+.header-header .nav-list {
+    display: flex;
+    gap: 40px;
+    font-size: 1.25rem;
+    align-items: center;
+}
+
+.header-header .nav-list a {
+    border-radius: 14px;
+    padding: 3px 8px;
+    display: inline-block;
+}
+
+.header-header .nav-list .btn {
+    padding: 20px 35px;
+    border: 1px solid #191A23;
+    border-radius: 14px;
+}
+
+.header-header .nav-list .btn:hover , a:hover {
+    background-color: #B9FF66;
+    transition: 0.3s;
+}
+
+.header .hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .hero .landing {
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.header .hero .hero-subtitle {
+    line-height: 1.6;
+    font-size: 1.25rem;
+}
+
+.header .hero .hero-banner {
+    height: 515px;
+    align-self: center;
+}
+
+ .header .landing .btn a {
+    background-color: #191A23;
+    padding: 20px 35px;
+    border-radius: 14px;
+    color: #ffffff;
+    border: 1px solid #191A23;
+ }
+
+ .header .landing .btn a:hover {
+    background-color: #B9FF66;
+    color: #191A23;
+    transition: 0.3s;
+ }
+
+ .header .enterprises-logos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 140px;
+ }
+
+ .header .enterprises-logos img {
+    cursor: pointer;
+ }
