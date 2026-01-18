@@ -29,3 +29,20 @@ h4 {
 p {
     font-size: 1.125rem;
 }
+
+.topic-description {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.topic {
+    padding: 0 7px;
+    background-color: #B9FF66;
+    display: inline-block;
+    border-radius: 7px;
+}
+
+.topic-sub {
+    width: 592px;
+}
