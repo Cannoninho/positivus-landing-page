@@ -79,10 +79,8 @@
  .header .enterprises-logos {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 140px;
  }
 
  .header .enterprises-logos img {
     cursor: pointer;
  }
- 
