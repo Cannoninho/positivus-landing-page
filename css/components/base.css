@@ -47,3 +47,18 @@ p {
 .topic-sub {
     width: 592px;
 }
+
+.btn a {
+    background-color: #191A23;
+    display: inline-block;
+    padding: 20px 35px;
+    border-radius: 14px;
+    color: #ffffff;
+    border: 1px solid #191A23;
+ }
+
+ .btn a:hover {
+    background-color: #B9FF66;
+    color: #191A23;
+    transition: 0.3s;
+ }

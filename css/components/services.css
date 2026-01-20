@@ -3,4 +3,173 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 310px);
     gap: 40px;
+    grid-template-areas: "search search pay pay"
+    "social social email email"
+    "content content analystics analystics";
+    margin: 0 50px 0 50px;
+    margin-bottom: 100px;
+}
+
+.card {
+    border-radius: 45px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #191A23;
+    box-shadow: #191A23 0px 5px 0px;
+}
+
+.card .card-title {
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+}
+
+.card .card-info h3 {
+    display: inline-block;
+    padding: 0 7px;
+    flex-direction: column;
+}
+
+.card .white {
+    background-color: #FFFFFF;
+}
+
+.card .green {
+    background-color: #B9FF66;
+}
+
+.card .card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 230px;
+}
+
+.card img {
+    width: 210px;
+}
+
+.services-card .search {
+    grid-area: search;
+    background-color: #f3f3f3;
+}
+
+.services-card .pay {
+    grid-area: pay;
+    background-color: #B9FF66
+}
+
+.services-card .social {
+    grid-area: social;
+    background-color: #191a23;
+}   
+
+.services-card .email {
+    grid-area: email;
+    background-color: #f3f3f3
+}
+
+.services-card .content {
+    grid-area: content;
+    background-color: #B9FF66
+}
+
+.services-card .analystics {
+    grid-area: analystics;
+    background-color: #191a23;
+}
+
+.card .card-info a {
+    font-size: 20px;
+}
+
+.card .card-info a.wht {
+    color: #f3f3f3;
+}
+
+.card .card-info a::before {
+    content: url('../images/logo/seta-b.svg');
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 41px;
+    height: 41px;
+    display: inline-block;
+}
+
+.card .card-info a.wht::before {
+    content: url('../images/logo/seta-w.svg');
+}
+
+.card .card-info a:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+    background-color: transparent;
+}
+
+.happen-section {
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    height: 347px;
+    padding: 60px 120px 60px 60px;
+    justify-content: space-between;
+    border-radius: 45px;
+
+}
+
+.happen-section img {
+    height: 395px;
+}
+
+.happen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 500px;
+}
+
+.studies-container {
+    background-color: #191a23;
+    display: flex;
+    padding: 70px 60px;
+    align-items: center;
+    height: 326px;
+    border-radius: 45px;
+}
+
+.studies-container .container-text {
+    color: #FFFFFF;
+}
+
+.studies-container a {
+    color: #B9FF66;
+}
+
+.stds {
+    flex: 1;
+    padding: 0 64px 0;
+    height: 183px;
+}
+
+.studies-container .stds:not(:last-child) {
+    border-right: 1px solid #ccc;
+}
+
+.container-link {
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: 300;
+}
+
+.studies-container .container-link::after {
+    content: url('../images/logo/d-arrow.svg');
+    height: 10px;
+    width: 17px;
+    display: inline-block;
+    margin-left: 10px;
 }

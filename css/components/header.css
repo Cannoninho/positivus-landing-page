@@ -62,19 +62,6 @@
     align-self: center;
 }
 
- .header .landing .btn a {
-    background-color: #191A23;
-    padding: 20px 35px;
-    border-radius: 14px;
-    color: #ffffff;
-    border: 1px solid #191A23;
- }
-
- .header .landing .btn a:hover {
-    background-color: #B9FF66;
-    color: #191A23;
-    transition: 0.3s;
- }
 
  .header .enterprises-logos {
     display: flex;
