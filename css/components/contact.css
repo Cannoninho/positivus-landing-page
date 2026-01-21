@@ -1,0 +1,83 @@
+.contact-card {
+    background-color: #f3f3f3;
+    height: 773px;
+    border-radius: 45px;
+    padding: 60px 0 80px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 140px;
+}
+
+.forms {
+    height: 100%;
+    width: 556px;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox label {
+    margin-right: 35px;
+}
+
+
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+.informations label {
+    margin-bottom: 5px;
+}
+
+.informations input {
+    margin-bottom: 25px;
+    padding: 18px auto 18px 30px;
+}
+
+.informt {
+    padding: 18px 0 18px 30px;
+    border-radius: 14px;
+    border: 1px solid black;
+}
+
+.informt-txt {
+    height: 190px;
+    margin-bottom: 40px;
+}
+
+.form-btn a {
+    background-color: #191a23;
+    padding: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    border-radius: 14px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid #191a23;
+}
+
+.form-btn a:hover {
+    background-color: #B9FF66;
+    color: #191a23;
+}
+
+.checkbox input[type="radio"] {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+    vertical-align: middle;
+    accent-color: #B9FF66;
+}

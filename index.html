@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/components/base.css">
     <link rel="stylesheet" href="css/components/header.css">
     <link rel="stylesheet" href="css/components/services.css">
+    <link rel="stylesheet" href="css/components/contact.css">
 </head>
 
 <body>
@@ -181,20 +182,20 @@
             <div class="contact-card">
                 <div class="forms">
                     <div class="checkbox">
-                        <input type="radio" id="newsletter" name="newsletter" value="newsletter">
-                        <label for="newsletter">Say Hi</label>
+                        <input type="radio" id="sayHi" name="contactReason" value="sayHi">
+                        <label for="sayHi">Say Hi</label>
 
-                        <input type="radio" id="newsletter" name="newsletter" value="newsletter">
-                        <label for="newsletter">Get a quote</label>
+                        <input type="radio" id="getQuote" name="contactReason" value="getQuote">
+                        <label for="getQuote">Get a quote</label>
                     </div>
 
                     <div class="informations">
                         <label for="name">Name</label>
-                        <input type="text" placeholder="Name" id="name">
+                        <input type="text" placeholder="Name" id="name" class="informt">
                         <label for="email">Email*</label>
-                        <input type="email" placeholder="Email" id="email">
+                        <input type="email" placeholder="Email" id="email" class="informt">
                         <label for="message">Message*</label>
-                        <textarea placeholder="Message" id="message"></textarea>
+                        <textarea placeholder="Message" id="message" class="informt informt-txt"></textarea>
                         <div class="form-btn"><a href="#">Send message</a></div>
                     </div>
                 </div>
