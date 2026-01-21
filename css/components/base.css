@@ -7,7 +7,7 @@ html {
 body {
     max-width: 1560px;
     margin: 0 auto;
-    padding: 30px 100px 70px 100px;
+    padding: 30px 100px 0 100px;
 }
 
 h1 {
