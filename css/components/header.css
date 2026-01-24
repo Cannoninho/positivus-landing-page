@@ -23,6 +23,12 @@
     align-items: center;
 }
 
+@media (max-width: 768px) {
+    .header-header .nav-list{
+        display: none;
+    }
+}
+
 .header-header .nav-list a {
     border-radius: 14px;
     padding: 3px 8px;
@@ -71,3 +77,5 @@
  .header .enterprises-logos img {
     cursor: pointer;
  }
+
+
