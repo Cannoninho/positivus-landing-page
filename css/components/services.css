@@ -179,3 +179,41 @@
     transition: 0.3s;
     background-color: transparent;
 }
+
+@media (max-width: 1160px) {
+    .services-card {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 310px);
+    grid-template-areas: "search search"
+    "pay pay"
+    "social social"
+    "email email"
+    "content content"
+    "analystics analystics";
+    }
+
+    .happen-section {
+        flex-direction: column;
+        height: 700px;
+        padding: 30px;
+    }
+
+    .happen {
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .studies-container {
+        flex-direction: column;
+        height: 700px;
+        padding: auto 20px;
+    }
+
+    .studies-container .stds:not(:last-child) {
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+    }
+}
