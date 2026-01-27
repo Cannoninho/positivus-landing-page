@@ -81,3 +81,13 @@
     vertical-align: middle;
     accent-color: #B9FF66;
 }
+
+@media (max-width: 1160px) {
+    .contact-card img {
+        display: none;
+    }
+
+    .contact-card .forms {
+        width: 85%;
+    }
+}
