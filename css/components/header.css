@@ -28,7 +28,6 @@
 }
 
 .header .menu-icon {
-    background-color: red;
     width: 40px;
     height: 40px;
     display: none;
@@ -46,21 +45,6 @@
     opacity: 0.7;
 }
 
-@media (max-width: 1380px) {
-    .header-header .nav-list {
-        background-color: red;
-        position: relative;
-        right: -100dvw;
-    }
-
-    .header .menu-icon {
-        display: inline-block;
-        position: fixed;
-        right: 100px;
-    }
-
-    
-}
 
 .header-header .nav-list a {
     border-radius: 14px;
@@ -111,3 +95,50 @@ a:hover {
 .header .enterprises-logos img {
     cursor: pointer;
 }
+
+@media (max-width: 1380px) {
+    .header-header .nav-container {
+        position: fixed;
+        background-color: #f3f3f3ee;
+        top: 0;
+        right: -100%;
+        flex-direction: column;
+        gap: 2rem;
+        width: 300px;
+        padding: 60px 20px 0 20px;
+        margin-top: 30px;
+        border-radius: 14px;
+        transition: right 0.3 ease;
+    }
+
+    .nav-container .nav-list {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+
+
+    .header .menu-icon {
+        display: block;
+        position: fixed;
+        right: 100px;
+    }
+
+    .menu-toggle:checked ~ .nav-container {
+        right: 80px;
+    }
+
+}
+
+@media (max-width: 1160px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .enterprises-logos {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
