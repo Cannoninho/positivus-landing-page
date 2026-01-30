@@ -82,7 +82,7 @@
     accent-color: #B9FF66;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 1400px) {
     .contact-card img {
         display: none;
     }

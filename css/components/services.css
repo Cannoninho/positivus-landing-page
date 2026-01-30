@@ -180,7 +180,7 @@
     background-color: transparent;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 1400px) {
     .services-card {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 310px);
