@@ -1,0 +1,82 @@
+@media (max-width: 480px) {
+    body {
+        padding: 30px 20px 0 20px;
+    }
+
+    h1 {
+        font-size: 3.65rem;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+    }
+
+    h3 {
+        font-size: 1.175rem;
+    }
+
+    h4 {
+        font-size: 1.15rem;
+    }
+
+    p {
+        font-size: 1.025rem;
+    }
+
+    .menu-toggle:checked~.nav-container {
+        right: 0px;
+    }
+
+    .hero-title {
+        font-size: 50px;
+    }
+
+    .hero {
+        text-align: center;
+    }
+
+    .header .hero .hero-banner {
+        margin-top: 20px;
+        height: 350px;
+    }
+
+    .enterprises {
+        margin: 0 15px 0 15px;
+    }
+
+    .topic-description {
+        gap: 20px;
+    }
+
+    .services-card {
+        margin: 0 20px 80px 20px;
+    }
+
+    .card {
+        width: 110%;
+        padding: 25px;
+    }
+
+    .card .card-info {
+        height: 100%;
+    }
+
+    .card img {
+        width: 200px;
+    }
+
+    .card .card-info a {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 431px) {
+    .card img {
+        width: 150px;
+    }
+
+    .card .card-info a {
+        font-size: 12px;
+    }
+}

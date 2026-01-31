@@ -124,7 +124,7 @@ a:hover {
         right: 0;
     }
 
-    .menu-toggle:checked ~ .nav-container {
+    .menu-toggle:checked~.nav-container {
         right: 80px;
     }
 
@@ -141,4 +141,3 @@ a:hover {
         gap: 20px;
     }
 }
-
